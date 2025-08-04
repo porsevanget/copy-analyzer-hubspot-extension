@@ -2,7 +2,7 @@
   "extensions": [
     {
       "component": {
-        "name": "AiCopyAnalysis",
+        "name": "DefdoersCopyAnalysisExtension",
         "source": "AiCopyAnalysis.tsx"
       },
       "targets": [
