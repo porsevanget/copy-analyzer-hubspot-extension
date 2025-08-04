@@ -12,18 +12,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
 
-      - name: Install and Build
-        run: |
-          npm install
-          npm run build
-
-      - name: Move built file for deployment
-        run: mv ./dist/AiCopyAnalysis.js ./src/
 
       - name: HubSpot Deploy Action
         uses: HubSpot/hubspot-cms-deploy-action@v2
