@@ -7,7 +7,7 @@ import {
   Alert,
 } from '@hubspot/ui-extensions';
 
-const AiCopyAnalysis = () => {
+export default function AiCopyAnalysis() {
   const [text, setText] = useState('');
   const [analysis, setAnalysis] = useState('');
   const [error, setError] = useState('');
