@@ -1,16 +1,23 @@
 {
-  "extensions": [
-    {
-      "component": {
-        "name": "DefdoersCopyAnalysisExtension",
-        "source": "AiCopyAnalysis.tsx"
-      },
-      "targets": [
+  "name": "defdoers project",
+  "description": "An AI-powered copy analysis tool for HubSpot.",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.companies.read",
+    "crm.objects.deals.read"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
         {
-          "target": "crm.record.sidebar",
+          "file": "DefdoersCopyAnalysisExtension.tsx",
+          "name": "DefdoersCopyAnalysisExtension",
+          "type": "CRM_CARD",
+          "location": "crm.record.sidebar",
           "objectType": "DEAL"
         }
       ]
     }
-  ]
+  }
 }
