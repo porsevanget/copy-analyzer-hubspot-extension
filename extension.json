@@ -3,7 +3,7 @@
     {
       "component": {
         "name": "AiCopyAnalysis",
-        "source": "src/AiCopyAnalysis.tsx"
+        "source": "AiCopyAnalysis.tsx"
       },
       "targets": [
         {
