@@ -7,8 +7,6 @@ import {
   Alert,
 } from '@hubspot/ui-extensions';
 
-hubspot.extend(() => <AiCopyAnalysis />);
-
 const AiCopyAnalysis = () => {
   const [text, setText] = useState('');
   const [analysis, setAnalysis] = useState('');
@@ -69,3 +67,5 @@ const AiCopyAnalysis = () => {
     </Flex>
   );
 };
+
+hubspot.extend(() => <AiCopyAnalysis />);
