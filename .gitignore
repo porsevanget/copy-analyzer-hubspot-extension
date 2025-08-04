@@ -10,6 +10,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# HubSpot config
+hubspot.config.yml
+
 # Misc
 .DS_Store
 .env

@@ -1,0 +1,16 @@
+{
+  "extensions": [
+    {
+      "component": {
+        "name": "AiCopyAnalysis",
+        "source": "src/AiCopyAnalysis.tsx"
+      },
+      "targets": [
+        {
+          "target": "crm.record.sidebar",
+          "objectType": "DEAL"
+        }
+      ]
+    }
+  ]
+}
