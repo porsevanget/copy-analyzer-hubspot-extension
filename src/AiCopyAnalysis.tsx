@@ -7,7 +7,7 @@ import {
   Alert,
 } from '@hubspot/ui-extensions';
 
-export default function AiCopyAnalysis() {
+export default function DefdoersCopyAnalysisExtension() {
   const [text, setText] = useState('');
   const [analysis, setAnalysis] = useState('');
   const [error, setError] = useState('');
@@ -68,4 +68,4 @@ export default function AiCopyAnalysis() {
   );
 };
 
-hubspot.extend(() => <AiCopyAnalysis />);
+hubspot.extend(() => <DefdoersCopyAnalysisExtension />);
