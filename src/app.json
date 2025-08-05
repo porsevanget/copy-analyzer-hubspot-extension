@@ -6,7 +6,8 @@
     "crm.objects.companies.read",
     "crm.objects.deals.read"
   ],
-  "public": false,
+  "public": true,
+  "allowedUrls": ["https://your-vercel-app-name.vercel.app"],
   "extensions": {
     "crm": {
       "cards": [
