@@ -7,7 +7,7 @@
     "crm.objects.deals.read"
   ],
   "public": true,
-  "allowedUrls": ["https://your-vercel-app-name.vercel.app"],
+  "allowedUrls": ["https://analyze-inky.vercel.app"],
   "extensions": {
     "crm": {
       "cards": [
