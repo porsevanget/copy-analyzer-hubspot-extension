@@ -4,7 +4,11 @@
   "scopes": [
     "crm.objects.contacts.read",
     "crm.objects.companies.read",
-    "crm.objects.deals.read"
+    "crm.objects.deals.read",
+    "crm.objects.notes.read",
+    "crm.objects.notes.write",
+    "crm.objects.emails.read",
+    "files"
   ],
   "public": true,
   "allowedUrls": ["https://analyze-inky.vercel.app"],

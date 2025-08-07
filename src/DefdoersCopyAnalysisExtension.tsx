@@ -7,6 +7,9 @@ import {
   Alert,
 } from '@hubspot/ui-extensions';
 
+// NOTE: Update this version string on each deployment to verify the latest code is live in HubSpot UI
+const UI_VERSION_TAG = 'v2025-08-07-22:01';
+
 export default function DefdoersCopyAnalysisExtension() {
   const [text, setText] = useState('');
   const [analysis, setAnalysis] = useState('');
@@ -55,7 +58,7 @@ export default function DefdoersCopyAnalysisExtension() {
         style={{ width: '100%', padding: '8px', borderRadius: '3px', border: '1px solid #cbd6e2' }}
       />
       <Button onClick={handleAnalyze} variant="primary">
-        Analyze Copy
+        Analyze Copy {UI_VERSION_TAG}
       </Button>
       {error && <Alert title="Error" variant="error">{error}</Alert>}
       {analysis && (
